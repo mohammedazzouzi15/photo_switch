@@ -63,8 +63,8 @@ def main(id_photocat, id_right_block, id_linker, id_inhibitor):
             constructed_molecule_E, constructed_molecule_Z
         )
     )
-    print(stk.InchiKey().get_key(constructed_molecule_E_ON))
-    print(stk.InchiKey().get_key(constructed_molecule_Z_ON))
+    print("constructed_molecule_E_ON", stk.InchiKey().get_key(constructed_molecule_E_ON))
+    print("constructed_molecule_Z_ON", stk.InchiKey().get_key(constructed_molecule_Z_ON))
 
 
 if __name__ == "__main__":
