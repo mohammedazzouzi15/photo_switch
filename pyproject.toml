@@ -3,13 +3,13 @@ requires = ["setuptools", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "millie"
+name = "photocat_database"
 maintainers = [
-  { name = "Lukas Turcani", email = "lukasturcani93@gmail.com" },
+  { name = "mohammed azzouzi", email = "mohammed.azzouzi@epfl.ch" },
 ]
 
 dependencies = []
-requires-python = ">=3.11"
+requires-python = ">=3.7"
 dynamic = ["version"]
 readme = "README.rst"
 description = "Does things for you."

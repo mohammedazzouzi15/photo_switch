@@ -5,3 +5,5 @@ __pycache__
 /build
 docs/build
 docs/source/_autosummary
+src/photocat_database/data
+notebooks/data
